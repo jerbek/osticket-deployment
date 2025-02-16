@@ -11,6 +11,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Internet Information Services (IIS)
+- Chocolatey (Package Manager for windows)
 
 <h2>Operating Systems Used </h2>
 
