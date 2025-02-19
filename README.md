@@ -9,9 +9,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop
+- Remote Desktop Protocol
 - Internet Information Services (IIS)
-- Chocolatey (Package Manager for windows)
+- Chocolatey (package manager and dependency handler and  for Windows)
 
 <h2>Operating Systems Used </h2>
 
@@ -28,21 +28,18 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-  Install chocolatey in powershell with "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" </p>
-  <p></p>and the prerequisites via chocolatey with "choco install php php-manager mysql heidisql"
+  Install chocolatey in powershell with <code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))</code>
+</p>
+  <p></p>and the prerequisites via chocolatey with <code>choco install php php-manager mysql heidisql -y</code>
 </p>
 <p>
-<img src="https://github.com/user-attachments/assets/c78372e2-30d7-4382-8c55-f0c0a920bc04" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/ca07dbcc-5d89-4b77-9a61-36c6af56533f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
   Download osTicket with desired plugns
 </p>
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
 
 <p>
   Extract the osTicket upload folder to C:/inetpub/wwwroot/ and rename it to osticket
