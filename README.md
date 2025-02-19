@@ -124,7 +124,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-  In the Admin 
+  Remove write permissions to ost-config.php and set to read only
+</p>
+<p>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+  Delete your setup folder
 </p>
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
