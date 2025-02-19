@@ -28,18 +28,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-  Install chocolatey
+  Install chocolatey in powershell with "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" </p>
+  <p></p>and the prerequisites via chocolatey with "choco install php php-manager mysql heidisql"
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-  Install the prerequisites via chocolatey
-</p>
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/c78372e2-30d7-4382-8c55-f0c0a920bc04" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
