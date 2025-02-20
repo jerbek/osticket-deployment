@@ -51,15 +51,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-  Register your PHP installation from within IIS
-</p>
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-  Enable the required PHP modules from within IIS (if you miss any then they will show during the initial setup)
+  Register your PHP installation from within IIS and enable the php_opcache and php_intl modules from within IIS (if you miss any then they will show during the initial setup)
 </p>
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
