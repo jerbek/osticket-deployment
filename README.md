@@ -30,15 +30,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
   Install chocolatey in powershell with <code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))</code>
 </p>
-  <p></p>and the prerequisites via chocolatey with <code>choco install php php-manager mysql heidisql -y</code>
+  <p></p>and the prerequisites via chocolatey with <code>choco install php php-manager mysql heidisql urlrewrite -y</code>
 </p>
 <p>
-<img src="https://github.com/user-attachments/assets/ca07dbcc-5d89-4b77-9a61-36c6af56533f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-  Download osTicket with your desired plugns, then extract the upload folder from the archive to C:/inetpub/wwwroot/ and rename it to osticket, and finally extract your .phar plugins to osticket/include/plugins
+  Download osTicket with your desired plugns, then extract the upload folder from the archive to C:/inetpub/wwwroot/ and rename it to osticket, and finally extract your .phar plugins to the osticket/include/plugins folder.
 </p>
 
 <p>
@@ -51,18 +51,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-  Register your PHP installation from within IIS and enable the php_opcache and php_intl modules from within IIS (if you miss any then they will show during the initial setup)
+  Register your PHP installation from within IIS and enable the php_opcache and php_intl modules from within IIS (if you miss any then they will show during the initial setup). Add osticket as a site in IIS and delete the default IIS site if you desire.
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-  Add osticket as a site in IIS and change the default site if you desire
-</p>
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/04bd0535-0395-4500-99a5-ba460a9293b1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
