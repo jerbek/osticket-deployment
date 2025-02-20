@@ -51,7 +51,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-  Register your PHP installation from within IIS and enable the php_opcache and php_intl modules from within IIS (if you miss any then they will show during the initial setup). Add osticket as a site in IIS and delete the default IIS site if you desire.
+  Register your PHP installation (choco installs PHP to C:/tools) from within IIS and enable the php_opcache and php_intl modules from within IIS (if you miss any then they will show during the initial setup). Add osticket as a site in IIS and delete the default IIS site if you desire.
 </p>
 <p>
 <img src="https://github.com/user-attachments/assets/04bd0535-0395-4500-99a5-ba460a9293b1" height="80%" width="80%" alt="Disk Sanitization Steps"/>
