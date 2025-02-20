@@ -38,15 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-  Download osTicket with desired plugns, then extract the upload folder from the archive to C:/inetpub/wwwroot/ and rename it to osticket
-</p>
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-  Extract your .phar plugins to osticket/include/plugins
+  Download osTicket with your desired plugns, then extract the upload folder from the archive to C:/inetpub/wwwroot/ and rename it to osticket, and finally extract your .phar plugins to osticket/include/plugins
 </p>
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
