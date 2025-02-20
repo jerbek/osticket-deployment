@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <p></p>and the prerequisites via chocolatey with <code>choco install php php-manager mysql heidisql urlrewrite -y</code>
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/38d1ea92-e568-479b-8428-bb142f45d8c2" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
