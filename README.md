@@ -38,11 +38,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-  Download osTicket with desired plugns
-</p>
-
-<p>
-  Extract the osTicket upload folder to C:/inetpub/wwwroot/ and rename it to osticket
+  Download osTicket with desired plugns, then extract the upload folder from the archive to C:/inetpub/wwwroot/ and rename it to osticket
 </p>
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
