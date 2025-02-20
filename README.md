@@ -40,24 +40,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
   Download osTicket with your desired plugns, then extract the upload folder from the archive to C:/inetpub/wwwroot/ and rename it to osticket, and finally extract your .phar plugins to osticket/include/plugins
 </p>
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
 
 <p>
-  Rename osticket/include/ost-sampleconfig.php to ost-config.php
+  Rename osticket/include/ost-sampleconfig.php to ost-config.php so it will be read by the site, then disable permission inheritance on ost-config.php and give full permissions to everyone. (This is for convenience during the configuration steps)
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-  Disable permission inheritance on ost-config.php and give full permissions to everyone. (This is for convenience during the configuration steps)
-</p>
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/da430e69-e548-4f0a-a8ed-b73e23126da6" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/4bbea470-d587-4dbd-96e0-99577e797231" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
