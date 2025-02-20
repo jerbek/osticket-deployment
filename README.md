@@ -59,31 +59,23 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br />
 
 <p>
-  Open your site in the web browser via your domain or loopback address
+  Login to your sql database (root with no password) and create a database for osticket. You should also set a password for the root user in Tools>User manager.
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-<p>
-  Fill out the intial setup forms
-</p>
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/02156df1-cf68-499c-b7ed-efd993f3888e" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-  Remove write permissions to ost-config.php and set to read only
+  Open your site in the web browser via your domain or loopback address, and fill out the initial setup forms with your site, admin, and SQL information.
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/a3926f89-d5c6-44ba-a98f-887275572231" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 <p>
-  Delete your setup folder
+  Remove write permissions to ost-config.php and set to read only then delete your osticket/setup folder.
 </p>
 <p>
 <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
