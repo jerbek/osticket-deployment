@@ -78,6 +78,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Remove write permissions to ost-config.php and set to read only then delete your osticket/setup folder.
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/844545be-0981-4b86-9f5d-2ddef8487051" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
