@@ -70,7 +70,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   Open your site in the web browser via your domain or loopback address, and fill out the initial setup forms with your site, admin, and SQL information.
 </p>
 <p>
-<img src="https://github.com/user-attachments/assets/a3926f89-d5c6-44ba-a98f-887275572231" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/f2819f1a-6b55-476f-bdf9-e22e960357fe" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
